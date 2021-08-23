@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Gods Family Church</title>
+        <link rel="stylesheet" href="stylegfc.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+    </head>
+
+    <body>
+        
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">About
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="history.html">Our History</a>
+                  <a href="founder.html">Dennis & Rita Okeah</a>
+                  <a href="vision.html" >Our Vision</a>
+                  <a href="belief.html">Our Beliefs</a>
+                  <a href="value.html">Our Values</a>
+                </div>
+                </div> 
+            <a href="fellowship.html">Fellowship</a>
+            
+          </div>
+          <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.remove('show');
+                }
+              }
+            }
+            </script>
+               <br>
+               <br>
+               <div class="contitle">
+                <h1 style="text-align:center">Lead Pastors of Gods Family Church</h1>
+            </div>
+               <br>
+               <br>
+               <br>
+               
+               <div class="about">
+                <img id="me" width="750" src="about2.jpeg" alt="">
+                <img id="me" width="750" src="about1.jpeg" alt="">
+              
+                <br>
+                <br>
+                
+                <div class="about">
+                    <table style="width:100%">
+                    <tr>
+                        <td>
+                    <p id="paragraph">
+                        <b>Dennis Okeah</b><br>
+                        Pastor Dennis Okeah is the Founder and General overseer of His Family Global Outreach.<br> 
+                        He is known for his passion for God and is a leadership and life coach whose mission <br> 
+                        is to empower and develop people. Through the creation of the GFC Outreach Arm he is<br> 
+                        responsible for the: GFC Soup Kitchen, Widows Outreach, Orphanage Outreach,<br> 
+                        Youth Empowerment Outreach. He is happily married to his wife, Pastor Rita Okeah <br>
+                        and they are blessed with children.<br> 
+                    </p>
+                </td>
+                <td>
+                    <p id="paragraph">
+                        <b>Rita Okeah</b><br>
+                        Pastor Rita Okeah is passionate about educating the youths and helping them find Jesus<br> 
+                        as their saviour. She is a beloved Pastor with a prophetic teaching gift, and through<br> 
+                        her page Live Diaries, she is known for crafting real stories that will inspire,<br> 
+                        educate, develop, empower, motivate, inform and correct! She is the Author of several<br> 
+                        books namely, “The Unloved Wife”, “My Pastor, My Love”, “Ripples of Fate”,<br> 
+                        “Deceitful webs” and “Diary of a Naija Street Kid”.<br> 
+                    </p>
+                </td>
+                </tr>
+            </table>
+                    </div>
+
+                
+                    
+                    
+
+    </body>
+    
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Gods Family Church</title>
+        <link rel="stylesheet" href="stylegfc.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       
+    </head>
+
+    <body>
+        
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">About
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="history.html">Our History</a>
+                  <a href="founder.html">Dennis & Rita Okeah</a>
+                  <a href="vision.html" >Our Vision</a>
+                  <a href="belief.html">Our Beliefs</a>
+                  <a href="value.html">Our Values</a>
+                </div>
+                </div> 
+            <a href="fellowship.html">Fellowship</a>
+            
+          </div>
+          <script>
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                  myDropdown.classList.remove('show');
+                }
+              }
+            }
+            </script>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+                <h1 style="text-align:center; color:white;">Our Beliefs</h1>
+                <span id="belief">
+                <p id="parac">
+                    1. We believe in the totality of the Word of God.<br>
+                    2. We believe in salvation of man through Jesus Christ.<br>
+                    3. We believe in the death, resurrection, ascension and<br> return of Jesus Christ.<br>
+                    4. We believe in the rapture of the saints.<br>
+                    5. We believe in holiness and righteousness of man.<br>
+                    6. We believe in heaven and hell.<br>
+                    7. We believe in generous and willing giving-offerings<br> and tithing.<br>
+                    8. We believe in faith in God through Jesus Christ.<br>
+                    9. We believe in miracles.<br>
+                    10. We believe in healings and divine health.<br>
+                    11. We believe in water baptism by immersion.<br>
+                    12. We believe that Jesus Christ is coming back again<br> as He promised.</p>
+            </span>
+    </body>
+    <footer>
+        <p id="copyright">Created by Okeah David. © 2021</p>
+    </footer>
+</html>
