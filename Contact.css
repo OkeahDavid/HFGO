@@ -1,0 +1,113 @@
+ .u-section-1 {
+  background-image: url("images/church1.png");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 560px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 24px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.875rem;
+  margin: 32px auto 0;
+}
+
+.u-section-1 .u-social-icons-1 {
+  height: 65px;
+  min-height: 16px;
+  width: 354px;
+  min-width: 206px;
+  margin: 17px auto 0;
+}
+
+.u-section-1 .u-icon-2 {
+  height: 100%;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 67px auto 0 357px;
+}
+
+.u-section-1 .u-icon-4 {
+  color: rgb(255, 255, 255) !important;
+  font-size: 2.5em;
+}
+
+.u-section-1 .u-text-4 {
+  margin: -141px 339px 60px 625px;
+}
+
+.u-section-1 .u-icon-5 {
+  font-size: 2.5em;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 462px;
+  }
+
+  .u-section-1 .u-icon-2 {
+    color: rgb(17, 17, 17) !important;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 294px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 289px;
+    margin-left: 525px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 354px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 225px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 221px;
+    margin-left: 415px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 266px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-left: 169px;
+  }
+
+  .u-section-1 .u-text-4 {
+    margin-right: 166px;
+    margin-left: 325px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 681px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: auto;
+    margin-top: 42px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-4 {
+    width: auto;
+    margin-right: -64px;
+    margin-left: 170px;
+  }
+}
