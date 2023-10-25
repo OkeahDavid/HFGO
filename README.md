@@ -1,5 +1,5 @@
 # His Family Global Outreach Website (God's Family Church)
-https://familyglobaloutreach.org
+[Visit Our Website](https://familyglobaloutreach.org)
 
 Welcome to the official code repository for **Family Global Outreach** which represents the online presence of **God's Family Church**. This repository contains the source code, assets, and related files for our website.
 
