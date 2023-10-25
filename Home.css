@@ -53,3 +53,23 @@
     margin-top: 46px;
   }
 }
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.cursor {
+  animation: blink 1s infinite;
+  font-weight: bold;
+}
+.u-footer {
+  background-color: #333;  /* Dark gray background */
+  color: #fff;  /* White text color */
+  padding: 20px 0;  /* 20px padding at the top and bottom */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;  /* Center the text horizontally */
+}
+
