@@ -11,6 +11,8 @@ export interface BlogPost {
   content: string;
   date: string;
   image?: string;
+  author: string;
+  category: string;
 }
 
 export interface ContactInfo {

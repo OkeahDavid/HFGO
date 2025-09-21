@@ -7,13 +7,12 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import History from './pages/History';
 import Fellowship from './pages/Fellowship';
+import Values from './pages/Values';
+import Beliefs from './pages/Beliefs';
+import Founder from './pages/Founder';
+import Donations from './pages/Donations';
+import Blog from './pages/Blog';
 import theme from './theme';
-
-// Placeholder components for other pages
-const Values = () => <div>Values Page - Coming Soon</div>;
-const Beliefs = () => <div>Beliefs Page - Coming Soon</div>;
-const Founder = () => <div>Founder Page - Coming Soon</div>;
-const Donations = () => <div>Donations Page - Coming Soon</div>;
 
 function App() {
   return (
@@ -30,6 +29,7 @@ function App() {
             <Route path="/founder" element={<Founder />} />
             <Route path="/donations" element={<Donations />} />
             <Route path="/fellowship" element={<Fellowship />} />
+            <Route path="/blog" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Layout>

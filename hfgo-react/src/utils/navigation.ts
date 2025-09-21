@@ -36,6 +36,10 @@ export const navigationItems: NavigationItem[] = [
     path: '/fellowship',
   },
   {
+    label: 'Blog',
+    path: '/blog',
+  },
+  {
     label: 'Contact',
     path: '/contact',
   },
