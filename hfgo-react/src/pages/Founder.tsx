@@ -6,7 +6,6 @@ import {
   Card,
   CardContent,
   styled,
-  Avatar,
 } from '@mui/material';
 import {
   Email,
@@ -17,6 +16,9 @@ import {
   Groups,
 } from '@mui/icons-material';
 import churchImage from '../assets/images/church1.png';
+// Founder images
+import founder1 from '../assets/images/about1.jpeg';
+import founder2 from '../assets/images/about2.jpeg';
 
 const HeroSection = styled(Box)(() => ({
   minHeight: '400px',
@@ -69,18 +71,44 @@ const Founder: React.FC = () => {
         <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: 4, mb: 6 }}>
           <LeaderCard sx={{ flex: 1 }}>
             <CardContent sx={{ p: 4, textAlign: 'center' }}>
-              <Avatar
+              <Box
+                component="img"
+                src={founder1}
+                alt="Pastor Dennis Okeah"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                  const fallback = e.currentTarget.nextElementSibling as HTMLElement;
+                  if (fallback) fallback.style.display = 'flex';
+                }}
                 sx={{ 
                   width: 120, 
                   height: 120, 
                   mx: 'auto', 
                   mb: 3,
+                  borderRadius: '50%',
+                  objectFit: 'cover',
+                  boxShadow: 4,
+                }}
+              />
+              <Box
+                sx={{
+                  width: 120,
+                  height: 120,
+                  mx: 'auto',
+                  mb: 3,
+                  borderRadius: '50%',
                   bgcolor: 'primary.main',
-                  fontSize: '3rem'
+                  display: 'none',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontSize: '3rem',
+                  fontWeight: 'bold',
+                  color: 'white',
+                  boxShadow: 4,
                 }}
               >
                 D
-              </Avatar>
+              </Box>
               <Typography variant="h4" component="h3" sx={{ mb: 2, fontWeight: 'bold', color: 'primary.main' }}>
                 Pastor Dennis Okeah
               </Typography>
@@ -114,19 +142,44 @@ const Founder: React.FC = () => {
 
           <LeaderCard sx={{ flex: 1 }}>
             <CardContent sx={{ p: 4, textAlign: 'center' }}>
-              <Avatar
+              <Box
+                component="img"
+                src={founder2}
+                alt="Pastor Rita Okeah"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                  const fallback = e.currentTarget.nextElementSibling as HTMLElement;
+                  if (fallback) fallback.style.display = 'flex';
+                }}
                 sx={{ 
                   width: 120, 
                   height: 120, 
                   mx: 'auto', 
                   mb: 3,
+                  borderRadius: '50%',
+                  objectFit: 'cover',
+                  boxShadow: 4,
+                }}
+              />
+              <Box
+                sx={{
+                  width: 120,
+                  height: 120,
+                  mx: 'auto',
+                  mb: 3,
+                  borderRadius: '50%',
                   bgcolor: 'secondary.main',
-                  color: 'primary.main',
-                  fontSize: '3rem'
+                  display: 'none',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontSize: '3rem',
+                  fontWeight: 'bold',
+                  color: 'white',
+                  boxShadow: 4,
                 }}
               >
                 R
-              </Avatar>
+              </Box>
               <Typography variant="h4" component="h3" sx={{ mb: 2, fontWeight: 'bold', color: 'primary.main' }}>
                 Pastor Rita Okeah
               </Typography>
@@ -189,6 +242,7 @@ const Founder: React.FC = () => {
             </Box>
           </CardContent>
         </Card>
+
 
         {/* Contact & Background */}
         <Card sx={{ p: 4, backgroundColor: 'primary.light', color: 'white' }}>

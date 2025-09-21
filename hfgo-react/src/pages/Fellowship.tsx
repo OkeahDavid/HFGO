@@ -9,11 +9,11 @@ import {
   Button,
 } from '@mui/material';
 import { Favorite, VolunteerActivism } from '@mui/icons-material';
-import churchImage from '../assets/images/church1.png';
+import fellowshipImage from '../assets/images/adab73fd56358178a3ce8febc21fb10daa13823a7995a0760aba905c58760c584aaadd6dfe5120bb8a44f6a79618eb32164b6fce73c5b8e778c2a3_1280.jpg';
 
 const HeroSection = styled(Box)(() => ({
   minHeight: '400px',
-  backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${churchImage})`,
+  backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${fellowshipImage})`,
   backgroundPosition: 'center',
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',

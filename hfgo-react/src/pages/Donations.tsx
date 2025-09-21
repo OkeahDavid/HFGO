@@ -19,6 +19,7 @@ import {
   Phone,
 } from '@mui/icons-material';
 import churchImage from '../assets/images/church1.png';
+import donationImage from '../assets/images/86afe72b19452472fb60d043fe4cbda319208da6b1cebd5d729c110c60707d903ba98ffda9c3aada489b46efdd37f90658593e7b19248f1341cc15_1280.png';
 
 const HeroSection = styled(Box)(() => ({
   minHeight: '400px',
@@ -193,6 +194,18 @@ const Donations: React.FC = () => {
                   <Typography variant="h6" sx={{ mb: 2, fontWeight: 'bold' }}>
                     Bank Account Details
                   </Typography>
+                  <Box sx={{ textAlign: 'center', mb: 3 }}>
+                    <Box
+                      component="img"
+                      src={donationImage}
+                      alt="Banking Partner"
+                      sx={{
+                        height: 40,
+                        width: 'auto',
+                        objectFit: 'contain',
+                      }}
+                    />
+                  </Box>
                   <Typography variant="body1" sx={{ mb: 1 }}>
                     <strong>Account Name:</strong> His Family Global Outreach
                   </Typography>

@@ -16,6 +16,38 @@ import {
   Public,
 } from '@mui/icons-material';
 import churchImage from '../assets/images/church1.png';
+// Widow support images
+import wid1 from '../assets/images/wid1.jpg';
+import wid2 from '../assets/images/wid2.jpg';
+import wid3 from '../assets/images/wid3.jpg';
+import wid4 from '../assets/images/wid4.jpg';
+import wid5 from '../assets/images/wid5.jpg';
+import wid6 from '../assets/images/wid6.jpg';
+import wid7 from '../assets/images/wid7.jpg';
+import wid8 from '../assets/images/wid8.jpg';
+import wid9 from '../assets/images/wid9.jpg';
+// Widow ministry images
+import widow1 from '../assets/images/widow1.jpg';
+import widow2 from '../assets/images/widow2.jpg';
+import widow3 from '../assets/images/widow3.jpg';
+import widow4 from '../assets/images/widow4.jpg';
+import widow5 from '../assets/images/widow5.jpg';
+import widow6 from '../assets/images/widow6.jpg';
+// Business development images
+import business1 from '../assets/images/business1.jpg';
+import business4 from '../assets/images/business4.jpg';
+import business5 from '../assets/images/business5.jpg';
+import whatsappImage from '../assets/images/WhatsAppImage2021-11-08at23.44.17.jpeg';
+// Skills training images
+import skills1 from '../assets/images/skills1.jpg';
+import skills2 from '../assets/images/skills2.jpg';
+import skills3 from '../assets/images/skills3.jpg';
+import skills4 from '../assets/images/skills4.jpg';
+import skills5 from '../assets/images/skills5.jpg';
+import skills6 from '../assets/images/skills6.jpg';
+import skills7 from '../assets/images/skills7.jpg';
+import skills8 from '../assets/images/skills8.jpg';
+import skills9 from '../assets/images/skills9.jpg';
 
 const HeroSection = styled(Box)(() => ({
   minHeight: '400px',
@@ -151,6 +183,122 @@ const Values: React.FC = () => {
               </MinistryCard>
             </Box>
           ))}
+        </Box>
+
+        {/* Widow Support Section */}
+        <Box sx={{ mb: 8 }}>
+          <Typography variant="h3" component="h2" sx={{ mb: 4, textAlign: 'center', color: 'primary.main' }}>
+            Widow Support Ministry
+          </Typography>
+          <Typography variant="h6" sx={{ mb: 4, textAlign: 'center', maxWidth: 800, mx: 'auto' }}>
+            Providing care, support, and empowerment to widows in our community through practical assistance and spiritual encouragement.
+          </Typography>
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, mb: 4 }}>
+            {[wid1, wid2, wid3, wid4, wid5, wid6, wid7, wid8, wid9].map((image, index) => (
+              <Box key={index} sx={{ flex: '1 1 calc(33.333% - 8px)', minWidth: '200px' }}>
+                <Box
+                  component="img"
+                  src={image}
+                  alt={`Widow support activity ${index + 1}`}
+                  sx={{
+                    width: '100%',
+                    height: '200px',
+                    objectFit: 'cover',
+                    borderRadius: 2,
+                    boxShadow: 2,
+                  }}
+                />
+              </Box>
+            ))}
+          </Box>
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, mb: 4 }}>
+            {[widow1, widow2, widow3, widow4, widow5, widow6].map((image, index) => (
+              <Box key={index} sx={{ flex: '1 1 calc(50% - 8px)', minWidth: '200px' }}>
+                <Box
+                  component="img"
+                  src={image}
+                  alt={`Widow ministry ${index + 1}`}
+                  sx={{
+                    width: '100%',
+                    height: '250px',
+                    objectFit: 'cover',
+                    borderRadius: 2,
+                    boxShadow: 2,
+                  }}
+                />
+              </Box>
+            ))}
+          </Box>
+        </Box>
+
+        {/* Business Development Section */}
+        <Box sx={{ mb: 8 }}>
+          <Typography variant="h3" component="h2" sx={{ mb: 4, textAlign: 'center', color: 'primary.main' }}>
+            Business Development & Empowerment
+          </Typography>
+          <Typography variant="h6" sx={{ mb: 4, textAlign: 'center', maxWidth: 800, mx: 'auto' }}>
+            Empowering individuals through business training, entrepreneurship programs, and economic development initiatives.
+          </Typography>
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, mb: 4 }}>
+            <Box sx={{ flex: '1 1 calc(25% - 12px)', minWidth: '200px' }}>
+              <Box
+                component="img"
+                src={whatsappImage}
+                alt="Business development program"
+                sx={{
+                  width: '100%',
+                  height: '200px',
+                  objectFit: 'cover',
+                  borderRadius: 2,
+                  boxShadow: 2,
+                }}
+              />
+            </Box>
+            {[business1, business4, business5].map((image, index) => (
+              <Box key={index} sx={{ flex: '1 1 calc(25% - 12px)', minWidth: '200px' }}>
+                <Box
+                  component="img"
+                  src={image}
+                  alt={`Business development ${index + 1}`}
+                  sx={{
+                    width: '100%',
+                    height: '200px',
+                    objectFit: 'cover',
+                    borderRadius: 2,
+                    boxShadow: 2,
+                  }}
+                />
+              </Box>
+            ))}
+          </Box>
+        </Box>
+
+        {/* Skills Training Section */}
+        <Box sx={{ mb: 8 }}>
+          <Typography variant="h3" component="h2" sx={{ mb: 4, textAlign: 'center', color: 'primary.main' }}>
+            Skills Training & Capacity Building
+          </Typography>
+          <Typography variant="h6" sx={{ mb: 4, textAlign: 'center', maxWidth: 800, mx: 'auto' }}>
+            Equipping individuals with practical skills and vocational training to become self-reliant and productive members of society.
+          </Typography>
+          <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, mb: 4 }}>
+            {[skills1, skills2, skills3, skills4, skills5, skills6, skills7, skills8, skills9].map((image, index) => (
+              <Box key={index} sx={{ flex: '1 1 calc(33.333% - 8px)', minWidth: '200px' }}>
+                <Box
+                  component="img"
+                  src={image}
+                  alt={`Skills training ${index + 1}`}
+                  sx={{
+                    width: '100%',
+                    height: '200px',
+                    objectFit: 'cover',
+                    borderRadius: 2,
+                    boxShadow: 2,
+                  }}
+                />
+              </Box>
+            ))}
+          </Box>
         </Box>
 
         <Card sx={{ p: 4, backgroundColor: 'primary.light', color: 'white' }}>

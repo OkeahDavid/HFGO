@@ -7,11 +7,11 @@ import {
   CardContent,
   styled,
 } from '@mui/material';
-import churchImage from '../assets/images/church1.png';
+import historyImage from '../assets/images/92a030ccb35ba639112dfe7789711b4176a8a3e08884ecef02ca4a2ce915478afadab73af18412c6395b8794b405cdafb5b469b28c878789f99baa_1280.jpg';
 
 const HeroSection = styled(Box)(() => ({
   minHeight: '400px',
-  backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${churchImage})`,
+  backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${historyImage})`,
   backgroundPosition: 'center',
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',

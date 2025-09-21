@@ -8,6 +8,8 @@ import {
   styled,
 } from '@mui/material';
 import churchImage from '../assets/images/church1.png';
+import about1 from '../assets/images/image1.jpeg';
+import about2 from '../assets/images/image5.jpeg';
 
 const HeroSection = styled(Box)(() => ({
   minHeight: '400px',
@@ -55,6 +57,38 @@ const About: React.FC = () => {
             </Typography>
           </CardContent>
         </Card>
+
+        {/* About Images Section */}
+        <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: 4, mb: 4 }}>
+          <Box sx={{ flex: 1 }}>
+            <Box
+              component="img"
+              src={about1}
+              alt="His Family Global Outreach community"
+              sx={{
+                width: '100%',
+                height: 300,
+                objectFit: 'cover',
+                borderRadius: 2,
+                boxShadow: 4,
+              }}
+            />
+          </Box>
+          <Box sx={{ flex: 1 }}>
+            <Box
+              component="img"
+              src={about2}
+              alt="Ministry and fellowship activities"
+              sx={{
+                width: '100%',
+                height: 300,
+                objectFit: 'cover',
+                borderRadius: 2,
+                boxShadow: 4,
+              }}
+            />
+          </Box>
+        </Box>
 
         <Card sx={{ p: 4 }}>
           <CardContent>

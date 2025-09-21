@@ -2,11 +2,11 @@ import React from 'react';
 import { Box, Container, Typography, styled, Card, CardContent, Button } from '@mui/material';
 import { Church, People, Favorite, Phone } from '@mui/icons-material';
 import { useTypewriter } from '../hooks/useTypewriter';
-import churchImage from '../assets/images/church1.png';
+import heroImage from '../assets/images/5d58f94147c213d6dda254caaff8faa3d7f0cf0aaf79a7b8fb14dfbdfff2fbdcfcc0168c73c07f76ac32a223e4c9f4cac5faef4cbe47a2ff4b2fcb_1280.jpg';
 
 const HeroSection = styled(Box)(({ theme }) => ({
   minHeight: '800px',
-  backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(${churchImage})`,
+  backgroundImage: `linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url(${heroImage})`,
   backgroundPosition: 'center',
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
