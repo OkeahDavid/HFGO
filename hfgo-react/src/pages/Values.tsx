@@ -195,14 +195,14 @@ const Values: React.FC = () => {
           </Typography>
           <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, mb: 4 }}>
             {[wid1, wid2, wid3, wid4, wid5, wid6, wid7, wid8, wid9].map((image, index) => (
-              <Box key={index} sx={{ flex: '1 1 calc(33.333% - 8px)', minWidth: '200px' }}>
+              <Box key={index} sx={{ flex: { xs: '1 1 calc(50% - 8px)', sm: '1 1 calc(33.333% - 8px)', md: '1 1 calc(25% - 12px)' }, minWidth: '150px' }}>
                 <Box
                   component="img"
                   src={image}
                   alt={`Widow support activity ${index + 1}`}
                   sx={{
                     width: '100%',
-                    height: '200px',
+                    height: { xs: '150px', sm: '180px', md: '200px' },
                     objectFit: 'cover',
                     borderRadius: 2,
                     boxShadow: 2,
@@ -213,14 +213,14 @@ const Values: React.FC = () => {
           </Box>
           <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, mb: 4 }}>
             {[widow1, widow2, widow3, widow4, widow5, widow6].map((image, index) => (
-              <Box key={index} sx={{ flex: '1 1 calc(50% - 8px)', minWidth: '200px' }}>
+              <Box key={index} sx={{ flex: { xs: '1 1 100%', sm: '1 1 calc(50% - 8px)' }, minWidth: '200px' }}>
                 <Box
                   component="img"
                   src={image}
                   alt={`Widow ministry ${index + 1}`}
                   sx={{
                     width: '100%',
-                    height: '250px',
+                    height: { xs: '200px', sm: '220px', md: '250px' },
                     objectFit: 'cover',
                     borderRadius: 2,
                     boxShadow: 2,
@@ -240,14 +240,14 @@ const Values: React.FC = () => {
             Empowering individuals through business training, entrepreneurship programs, and economic development initiatives.
           </Typography>
           <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, mb: 4 }}>
-            <Box sx={{ flex: '1 1 calc(25% - 12px)', minWidth: '200px' }}>
+            <Box sx={{ flex: { xs: '1 1 calc(50% - 8px)', sm: '1 1 calc(25% - 12px)' }, minWidth: '150px' }}>
               <Box
                 component="img"
                 src={whatsappImage}
                 alt="Business development program"
                 sx={{
                   width: '100%',
-                  height: '200px',
+                  height: { xs: '150px', sm: '180px', md: '200px' },
                   objectFit: 'cover',
                   borderRadius: 2,
                   boxShadow: 2,
@@ -255,14 +255,14 @@ const Values: React.FC = () => {
               />
             </Box>
             {[business1, business4, business5].map((image, index) => (
-              <Box key={index} sx={{ flex: '1 1 calc(25% - 12px)', minWidth: '200px' }}>
+              <Box key={index} sx={{ flex: { xs: '1 1 calc(50% - 8px)', sm: '1 1 calc(25% - 12px)' }, minWidth: '150px' }}>
                 <Box
                   component="img"
                   src={image}
                   alt={`Business development ${index + 1}`}
                   sx={{
                     width: '100%',
-                    height: '200px',
+                    height: { xs: '150px', sm: '180px', md: '200px' },
                     objectFit: 'cover',
                     borderRadius: 2,
                     boxShadow: 2,
@@ -283,14 +283,14 @@ const Values: React.FC = () => {
           </Typography>
           <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2, mb: 4 }}>
             {[skills1, skills2, skills3, skills4, skills5, skills6, skills7, skills8, skills9].map((image, index) => (
-              <Box key={index} sx={{ flex: '1 1 calc(33.333% - 8px)', minWidth: '200px' }}>
+              <Box key={index} sx={{ flex: { xs: '1 1 calc(50% - 8px)', sm: '1 1 calc(33.333% - 8px)', md: '1 1 calc(25% - 12px)' }, minWidth: '150px' }}>
                 <Box
                   component="img"
                   src={image}
                   alt={`Skills training ${index + 1}`}
                   sx={{
                     width: '100%',
-                    height: '200px',
+                    height: { xs: '150px', sm: '180px', md: '200px' },
                     objectFit: 'cover',
                     borderRadius: 2,
                     boxShadow: 2,

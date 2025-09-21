@@ -70,7 +70,7 @@ const Founder: React.FC = () => {
         {/* Founders Section */}
         <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: 4, mb: 6 }}>
           <LeaderCard sx={{ flex: 1 }}>
-            <CardContent sx={{ p: 4, textAlign: 'center' }}>
+            <CardContent sx={{ p: { xs: 2, sm: 3, md: 4 }, textAlign: 'center' }}>
               <Box
                 component="img"
                 src={founder1}
@@ -81,8 +81,8 @@ const Founder: React.FC = () => {
                   if (fallback) fallback.style.display = 'flex';
                 }}
                 sx={{ 
-                  width: 120, 
-                  height: 120, 
+                  width: { xs: 100, sm: 120 }, 
+                  height: { xs: 100, sm: 120 }, 
                   mx: 'auto', 
                   mb: 3,
                   borderRadius: '50%',
@@ -92,8 +92,8 @@ const Founder: React.FC = () => {
               />
               <Box
                 sx={{
-                  width: 120,
-                  height: 120,
+                  width: { xs: 100, sm: 120 },
+                  height: { xs: 100, sm: 120 },
                   mx: 'auto',
                   mb: 3,
                   borderRadius: '50%',
@@ -141,7 +141,7 @@ const Founder: React.FC = () => {
           </LeaderCard>
 
           <LeaderCard sx={{ flex: 1 }}>
-            <CardContent sx={{ p: 4, textAlign: 'center' }}>
+            <CardContent sx={{ p: { xs: 2, sm: 3, md: 4 }, textAlign: 'center' }}>
               <Box
                 component="img"
                 src={founder2}
@@ -152,8 +152,8 @@ const Founder: React.FC = () => {
                   if (fallback) fallback.style.display = 'flex';
                 }}
                 sx={{ 
-                  width: 120, 
-                  height: 120, 
+                  width: { xs: 100, sm: 120 }, 
+                  height: { xs: 100, sm: 120 }, 
                   mx: 'auto', 
                   mb: 3,
                   borderRadius: '50%',
@@ -163,8 +163,8 @@ const Founder: React.FC = () => {
               />
               <Box
                 sx={{
-                  width: 120,
-                  height: 120,
+                  width: { xs: 100, sm: 120 },
+                  height: { xs: 100, sm: 120 },
                   mx: 'auto',
                   mb: 3,
                   borderRadius: '50%',

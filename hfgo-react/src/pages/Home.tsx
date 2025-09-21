@@ -15,11 +15,16 @@ const HeroSection = styled(Box)(({ theme }) => ({
   justifyContent: 'center',
   color: 'white',
   textAlign: 'center',
+  padding: theme.spacing(2),
   [theme.breakpoints.down('lg')]: {
-    minHeight: '660px',
+    minHeight: '600px',
   },
   [theme.breakpoints.down('md')]: {
-    minHeight: '506px',
+    minHeight: '500px',
+  },
+  [theme.breakpoints.down('sm')]: {
+    minHeight: '400px',
+    padding: theme.spacing(1),
   },
 }));
 
