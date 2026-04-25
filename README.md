@@ -1,25 +1,41 @@
 # His Family Global Outreach
 
-A modern React website for His Family Global Outreach church, built with TypeScript and Material-UI.
+A React website for His Family Global Outreach church, built with TypeScript, Material-UI, and Vite.
 
-## � Quick Start
+## Prerequisites
 
-1. **Install dependencies**
+- [Node.js](https://nodejs.org/) (v18 or later recommended)
+- npm (comes with Node.js)
+
+## Getting Started
+
+1. Clone the repository and navigate into the project directory:
+   ```bash
+   https://github.com/OkeahDavid/HFGO
+   cd HFGO
+   ```
+
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. **Start development server**
+3. Start the development server:
    ```bash
    npm run dev
    ```
 
-3. **Build for production**
-   ```bash
-   npm run build
-   ```
 
-## 🌐 Website Sections
+## Available Scripts
+
+| Command             | Description                          |
+| ------------------- | ------------------------------------ |
+| `npm run dev`       | Start the Vite development server    |
+| `npm run build`     | Build for production                 |
+| `npm run preview`   | Preview the production build locally |
+| `npm run lint`      | Run ESLint on the project            |
+
+## Website Sections
 
 - **Home** - Welcome page with mission statement
 - **About** - Our story and mission
@@ -27,21 +43,21 @@ A modern React website for His Family Global Outreach church, built with TypeScr
 - **Fellowship** - Community events and activities
 - **Contact** - Get in touch with us
 
-## �️ Tech Stack
+## Tech Stack
 
-- React 18 with TypeScript
-- Material-UI for components
-- Vite for fast development
-- Responsive design for all devices
+- React 19 with TypeScript
+- Material-UI (MUI) for components
+- Vite for bundling and development
+- React Router for navigation
+- Deployed via Netlify
 
-## 📱 Features
+## Features
 
 - Mobile-first responsive design
 - Interactive typewriter text effect
 - Social media integration
 - Professional church branding
-- Fast loading and modern UI
 
-## 📞 Contact
+## Contact
 
 For questions about the website, please contact the church administration.
